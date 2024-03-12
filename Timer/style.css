@@ -1,0 +1,43 @@
+#screen{
+    width: 100%;
+}
+
+#container{ 
+    height: 150px;
+    width: 500px;
+    border-style: solid;
+    border-width: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.btn{
+    display: flex;
+    padding: 7px;
+    background-color: green;
+    height: fit-content;
+    width: 90px;
+    border-radius:20px;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    cursor: pointer;
+}
+ 
+#time{
+    display: flex;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+#lap{
+    font-size: 30px;
+    font-weight: 1000;
+}
